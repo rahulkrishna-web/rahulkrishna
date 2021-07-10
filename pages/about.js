@@ -6,16 +6,13 @@ export default function Home() {
   return (
     <div className={styles.fullwidth}>
       <Head>
-        <title>Rahul Krishna</title>
-        <link rel="icon" href="/favicon.ico" />
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
-        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+        <title>About</title>
      </Head>
       <HomeAppbar />
       <main className={styles.main}>
         
         <h1 className={styles.title}>
-          Rahul Krishna
+          About Rahul Krishna
         </h1>
 
         <p className={styles.description}>
