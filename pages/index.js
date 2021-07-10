@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import HomeAppbar from '../components/homeAppbar'
+import HomeLead from '../components/homeLead'
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
      </Head>
       <HomeAppbar />
+      <HomeLead />
       <main className={styles.main}>
         
         <h1 className={styles.title}>
